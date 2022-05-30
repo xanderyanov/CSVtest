@@ -26,7 +26,7 @@ namespace MmxCMS
             Quotator = quotator;
 
             string firstLine = lines.First();
-            LinePtr = lines.GetEnumerator();
+            LinePtr = lines.GetEnumerator();  //Возвращает перечислитель, который осуществляет итерацию по коллекции.
 
 
             var F = StrUtils.Split(firstLine, Separator, Quotator);
